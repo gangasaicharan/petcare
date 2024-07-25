@@ -1,0 +1,188 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.header .profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.greeting {
+  margin: 20px 0;
+}
+
+.greeting h2 {
+  margin: 0;
+  text-align: left;
+
+}
+
+.greeting p {
+  margin: 5px 0;
+  text-align: left;
+}
+
+.greeting .summary {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  color: #0b285f;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointments-column,
+.vets-column {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #5c3d3d;
+  border-radius: 5px;
+}
+
+.appointments-column h3,
+.vets-column h3 {
+  margin: 0 0 10px 0;
+  
+}
+
+.appointment-card,
+.vet-card {
+  border: 1px solid #cca2a2;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #d4d8dd;
+  text-align: justify;
+}
+
+.appointment-card h4,
+.vet-card h4 {
+  margin: 0 0 5px 0;
+}
+
+.appointment-card p,
+.vet-card p {
+  margin: 5px 0;
+}
+
+.message-btn,
+.cancel-btn,
+.approve-btn,
+.reject-btn,
+.slots-btn,
+.add-vet-btn {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.message-btn {
+  background-color: #007bff;
+  color: #fff;
+  
+}
+
+.cancel-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.approve-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.reject-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.slots-btn {
+  background-color: #ffc107;
+  color: #333;
+  
+}
+
+.add-vet-btn {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+}
+
+.status.online {
+  color: #28a745;
+}
+
+.status.on-break {
+  color: #ffc107;
+}
