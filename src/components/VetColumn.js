@@ -4,8 +4,8 @@ import VetCard from './VetCard';
 
 function VetColumn() {
     const vets = [
-        { id: 1, name: 'Dr. Juhi', status: 'Online', specialization: 'Veterinary orthopaedic', details: 'Specialist in musculoskeletal injuries and diseases for Dogs' },
-        { id: 2, name: 'Dr. Kanishk', status: 'On Break', specialization: 'Veterinary orthopaedic', details: 'Specialist in musculoskeletal injuries and diseases for Dogs' }
+        { id: 1, name: 'Dr. Juhi', status: 'Online', specialization: 'Veterinary orthopaedic', details: 'Specialist in musculoskeletal injuries and diseases for Dogs', image:'doctor.jpg' },
+        { id: 2, name: 'Dr. Kanishk', status: 'On Break', specialization: 'Veterinary orthopaedic', details: 'Specialist in musculoskeletal injuries and diseases for Dogs',image:'doctor1.jpg' }
       ];
     
       return (
