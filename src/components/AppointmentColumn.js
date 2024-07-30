@@ -4,8 +4,8 @@ import AppointmentCard from './AppointmentCard';
 function AppointmentColumn({type}) {
     const appointments = [
         { id: 1, doctor: 'Dr. Bobby Sawyer', client: 'Mr. Shashi Singh', pet: 'Cat (Imli)', time: '9:30 - 10:00 AM', image:'download.jpg ' },
-        { id: 2, doctor: 'Dr. Kanishk', client: 'Mr. Sahil Singh', pet: 'Dog (Jerry)', time: '9:30 - 10:00 AM' ,image:'download.jpg ' },
-        { id: 3, doctor: 'Dr. Rahul Kumar', client: 'Mr. Shashi Singh', pet: 'Cat (Imli)', time: '9:30 - 10:00 AM',image:'download.jpg ' }
+        { id: 2, doctor: 'Dr. Kanishk', client: 'Mr. Sahil Singh', pet: 'Dog (Jerry)', time: '9:30 - 10:00 AM' ,image:'doctor1.jpg ' },
+        { id: 3, doctor: 'Dr. Rahul Kumar', client: 'Mr. Shashi Singh', pet: 'Cat (Imli)', time: '9:30 - 10:00 AM',image:'doctor.jpg ' }
       ];
   return (
     
