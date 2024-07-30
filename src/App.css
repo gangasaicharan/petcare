@@ -186,3 +186,158 @@
 .status.on-break {
   color: #ffc107;
 }
+.appointment-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.doctor-info {
+  display: flex;
+  align-items: center;
+}
+
+.doctor-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.appointment-card h4 {
+  margin: 0 0 5px 0;
+}
+
+.appointment-card p {
+  margin: 5px 0;
+}
+
+.message-btn,
+.cancel-btn,
+.approve-btn,
+.reject-btn {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.message-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.cancel-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.approve-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.reject-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+.vet-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.vet-info {
+  display: flex;
+  align-items: center;
+}
+
+.vet-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.vet-card h4 {
+  margin: 0 0 5px 0;
+}
+
+.vet-card p {
+  margin: 5px 0;
+}
+
+.status {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.status.online {
+  background-color: #28a745;
+}
+
+.status.on-break {
+  background-color: #ffc107;
+}
+
+.slots-btn,
+.message-btn {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.slots-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.message-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+.vets-column {
+  width: 30%;
+  padding: 20px;
+}
+
+.add-vet-btn {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.appointments-column {
+  width: 30%;
+  padding: 20px;
+}
+
+.appointments-column.today {
+  border-right: 1px solid #ddd;
+}
+
+.appointments-column.pending {
+  border-right: 1px solid #ddd;
+}
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.columns {
+  display: flex
